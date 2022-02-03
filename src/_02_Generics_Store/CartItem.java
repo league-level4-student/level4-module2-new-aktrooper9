@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import javax.imageio.ImageIO;
 import javax.swing.ImageIcon;
+import javax.swing.JLabel;
 
 public abstract class CartItem {
 	String item;
@@ -18,4 +19,8 @@ public abstract class CartItem {
 		}
 	}
 	protected abstract Component getFood();
+	public JLabel getNonFood() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }

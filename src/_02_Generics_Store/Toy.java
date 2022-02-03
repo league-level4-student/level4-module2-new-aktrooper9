@@ -4,7 +4,7 @@ import java.util.Random;
 
 import javax.swing.JLabel;
 
-public class Toy extends NonFood {
+public abstract class Toy extends CartItem {
 	public Toy() {
 		if(new Random().nextBoolean()) {
 			this.item = "toy1.jpeg";
